@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Worktree"
+  short_description: "Crie, liste e limpe git worktrees com aprovação"
+  default_prompt: "Use $git-worktree para listar meus worktrees abertos e dizer quais posso apagar."

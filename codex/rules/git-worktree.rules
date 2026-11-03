@@ -1,0 +1,7 @@
+# Regra de execução do Codex: pede aprovação antes de criar um git worktree.
+# Instalação: copie para ~/.codex/rules/ (veja o README).
+prefix_rule(
+    pattern = ["git", "worktree", "add"],
+    decision = "prompt",
+    justification = "Criação de git worktree: apresente o plano da skill git-worktree antes de aprovar.",
+)

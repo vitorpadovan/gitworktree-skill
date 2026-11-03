@@ -1,0 +1,16 @@
+{
+  "name": "gitworktree-skill",
+  "description": "Marketplace do plugin git-worktree",
+  "owner": {
+    "name": "Vitor Hugo Padovan Hernandes",
+    "url": "https://github.com/vitorpadovan"
+  },
+  "plugins": [
+    {
+      "name": "git-worktree",
+      "description": "Regras para criar, listar e limpar git worktrees: plano com aprovação antes de criar, relatório com veredito por worktree e limpeza ao final.",
+      "version": "0.2.1",
+      "source": "./"
+    }
+  ]
+}
